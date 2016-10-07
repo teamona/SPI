@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scoretext"
+            android:text="score1"
+            android:textSize="40sp"
+            />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dai1mon"
+            android:text="mondai1"
+            android:textSize="30sp"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dai2mon"
+            android:text="mondai2"
+            android:textSize="30sp"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dai3mon"
+            android:text="mondai3"
+            android:textSize="30sp"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dai4mon"
+            android:text="mondai4"
+            android:textSize="30sp"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dai5mon"
+            android:text="mondai5"
+            android:textSize="30sp"
+    />
+
+    <TextView
+            android:id="@+id/scoretext2"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="score2"
+
+    />
+
+    <Button
+            android:layout_marginTop="30dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="score4"
+            android:layout_gravity="right"
+            android:background="@drawable/shape_rouded_corner_10dp"
+    />
+
+
+
+
+
+
+
+</LinearLayout>

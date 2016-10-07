@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:id="@+id/whitebord"
+            android:src="@drawable/bord"
+            android:layout_marginTop="0dp"
+
+    />
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginBottom="200dp"
+                android:id="@+id/scrollView"
+                >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/QText"
+                android:text="mondai"/>
+
+
+    </ScrollView>
+
+    <ProgressBar
+    android:id="@+id/progressbar_horizontal"
+    style="?android:attr/progressBarStyleHorizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="30dp"
+    android:background="#ccc"
+    android:indeterminate="true"
+    android:indeterminateDuration="200"
+    android:indeterminateBehavior="cycle"
+    />
+
+     <LinearLayout
+             android:orientation="vertical"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:gravity="bottom">
+
+         <Button
+                 android:layout_width="300dp"
+                 android:layout_height="50dp"
+                 android:text="root"
+                 android:id="@+id/button"
+
+                 android:layout_gravity="center_horizontal"/>
+         <Button
+                 android:layout_width="300dp"
+                 android:layout_height="50dp"
+                 android:text="root2"
+                 android:id="@+id/button2"
+                 android:layout_gravity="center_horizontal"/>
+         <Button
+                 android:layout_width="300dp"
+                 android:layout_height="50dp"
+                 android:text="root3"
+                 android:id="@+id/button3"
+                 android:layout_gravity="center_horizontal"/>
+         <Button
+                 android:layout_width="300dp"
+                 android:layout_height="50dp"
+                 android:text="root4"
+                 android:id="@+id/button4"
+                 android:layout_gravity="center_horizontal"/>
+     </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
